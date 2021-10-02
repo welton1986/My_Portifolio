@@ -164,7 +164,7 @@ span {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(/images/AvatarMaker.png);
+    background-image: url(images/AvatarMaker.png);
     width: 260px;
     height: 260px;
     border-radius: 50%;
@@ -437,7 +437,7 @@ footer #contatos {
 }
 
 #contatos .linkedin {
-    background-image: url(/images/linkedin.png);
+    background-image: url(images/linkedin.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -449,7 +449,7 @@ footer #contatos {
 }
 
 #contatos .github {
-    background-image: url(/images/gitHub.png);
+    background-image: url(images/gitHub.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -461,7 +461,7 @@ footer #contatos {
 }
 
 #contatos .youtube {
-    background-image: url(/images/youtube.png);
+    background-image: url(images/youtube.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
