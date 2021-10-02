@@ -1,0 +1,481 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    
+}
+
+header {
+    position:fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
+    background-color: #000;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36%;
+    height: 80px;
+    color: #FFF;
+    font-size: 22px;
+    text-transform: uppercase;
+    background-color: #000;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.menu {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.menu li a:hover {
+    border-bottom: 5px solid yellow ;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul ,
+nav li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    display: flex;
+    align-items: center;
+    padding-right:20px;
+    padding-left: 20PX;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    height: 80px;
+    border-bottom: 5px solid #000;
+    
+    
+}
+
+
+.banner {
+    display: flex;
+    background-size: cover;
+    height: 600px;
+}
+
+.banner .left {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:flex-end;
+    width: 36%;
+    background-color:#000;
+    color: #FFF;
+}
+
+.left .nome {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 80%;
+    height: 200px;
+    font-size: 34px;
+
+}
+
+.left .func {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 70%;
+    font-size: 26px;
+    background-color:yellow;
+    color: #000;
+}
+
+
+.left .tecnologias {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 400px;
+    height: 40px;
+    margin-top: 100px;
+    
+}
+
+
+.tecnologias div {
+    width: 38px;
+    height: 38px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #FFF;
+    
+}
+
+span {
+    text-align: center;
+    width: 70px;
+    font-size: 50px;
+}
+
+.banner .rigth {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #000;
+    
+}
+
+.rigth .foto {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/images/AvatarMaker.png);
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+}
+
+#sobre {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 800px;
+    background-color: #FFF;
+}
+
+#sobre h1 {
+    margin: 0px;
+    margin-top: 60px;
+    font-size: 40px;
+    border-bottom: 5px solid yellow;
+}
+
+.sobre1 {
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    width: 100%;
+    height: 600px;
+}
+
+.sobre1 .fotoLeft {
+    width: 40%;
+    height: 500px;
+    background-color:rgba(0, 0, 0, 0.2);
+    color: #FFF;
+
+}
+
+.sobre1 .sobreRigth {
+    display: flex;
+    align-items:center ;
+    flex-direction:column;
+    width: 40%;
+    height: 500px;
+    background-color:rgba(0, 0, 0, 0.2);
+    color: #000;
+}
+
+.sobreRigth .titulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 20%;
+    margin-top: 10px;
+    
+}
+
+.titulo .titulo1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 50%;
+    font-size: 36px;
+    color: yellow;
+    background-color: #000;
+
+
+}
+
+.titulo .figura {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 50%;
+    font-size: 36px;
+    background-color: yellow;
+    
+}
+
+.sobreRigth .texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 60%;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+#work {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    width: 100%;
+    height: 1300px;
+    background-color: #000;
+}
+
+#work h1 {
+    color: #FFF;
+    margin: 0px;
+    margin-bottom: 80px;
+    font-size: 40px;
+    border-bottom: 5px solid yellow;
+}
+
+#work .works {
+    align-content:center;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 1000px;
+    background-color:#FFF;
+    
+    
+}
+
+
+h2 {
+    margin: 0px;
+    font-size: 20px;
+
+}
+
+.link {
+    text-align:center ;
+    width: 30px;
+    height: 30px;
+    
+}
+
+#work .video1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 360px;
+    height: 300px ;
+    margin: 10px;
+}
+
+#work .video2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 360px;
+    height: 300px ;
+    margin: 10px;
+}
+
+#work .video3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 360px;
+    height: 300px ;
+    margin: 10px;
+    
+
+}
+
+#work .video4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 360px;
+    height: 300px ;
+    margin: 10px;
+
+
+}
+
+#work .video5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 360px;
+    height: 300px ;
+    margin: 10px;
+}
+
+#work .video6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 360px;
+    height: 300px ;
+    margin: 10px;
+}
+
+#work .video7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 360px;
+    height: 300px ;
+    margin: 10px;
+}
+
+#work .video8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 360px;
+    height: 300px ;
+    margin: 10px;
+}
+
+#work .video9 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 360px;
+    height: 300px ;
+    margin: 10px;
+}
+
+.works a {
+    text-decoration: none;
+    color: #000;
+}
+
+h3 {
+    margin: 0px;
+    color: #000;
+    text-align: center;
+    font-size: 40px;
+    border-bottom: 5px solid yellow;
+}
+
+
+footer {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    height:260px;
+    color: #000;
+    background-color:#FFF;
+
+}
+
+footer p {
+    margin: 0px;
+   
+}
+
+footer #contatos {
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    width: 260px;
+    height: 60px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#contatos .linkedin {
+    background-image: url(/images/linkedin.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    background-color:white ;
+    border-radius: 50%;
+    
+}
+
+#contatos .github {
+    background-image: url(/images/gitHub.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    background-color:white ;
+    border-radius: 50%;
+    
+}
+
+#contatos .youtube {
+    background-image: url(/images/youtube.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    background-color:white ;
+    border-radius: 50%;
+    
+}
+    
+
+
+
+
+
+
+
