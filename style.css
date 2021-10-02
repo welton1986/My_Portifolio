@@ -125,7 +125,7 @@ nav a {
     display: flex;
     justify-content:space-between;
     align-items: center;
-    width: 400px;
+    width: 440px;
     height: 40px;
     margin-top: 100px;
     
@@ -138,7 +138,7 @@ nav a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #FFF;
+    background-color: #000;
     
 }
 
