@@ -297,7 +297,7 @@ h2 {
 }
 
 .link {
-    background-image: url(/images/seta_preta.png);
+    background-image: url(images/seta_preta.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -310,7 +310,7 @@ h2 {
 .link:hover {
     width: 30px;
     height: 30px;
-    background-image: url(/images/seta_branca.png);
+    background-image: url(images/seta_branca.png);
    
 }
 
