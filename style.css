@@ -297,9 +297,24 @@ h2 {
 }
 
 .link {
-    text-align:center ;
+    background-image: url(/images/seta_preta.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
     width: 30px;
     height: 30px;
+    
+}
+
+.link:hover {
+    width: 30px;
+    height: 30px;
+    background-image: url(/images/seta_branca.png);
+   
+}
+
+.link img:hover {
     
 }
 
@@ -431,10 +446,10 @@ footer #contatos {
     display: flex;
     justify-content: space-between;
     align-items:center ;
-    width: 260px;
+    width: 300px;
     height: 60px;
     margin-top: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 #contatos .linkedin {
@@ -444,9 +459,14 @@ footer #contatos {
     background-size: cover;
     width: 30px;
     height: 30px;
-    background-color:white ;
     border-radius: 50%;
     
+}
+
+ #contatos .linkedin:hover {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
 }
 
 #contatos .github {
@@ -456,21 +476,31 @@ footer #contatos {
     background-size: cover;
     width: 30px;
     height: 30px;
-    background-color:white ;
     border-radius: 50%;
     
 }
 
+#contatos .github:hover {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
 #contatos .youtube {
     background-image: url(images/youtube.png);
-    background-position: center;
+   
     background-repeat: no-repeat;
     background-size: cover;
     width: 30px;
     height: 30px;
-    background-color:white ;
     border-radius: 50%;
     
+}
+
+#contatos .youtube:hover {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
 }
     
 
