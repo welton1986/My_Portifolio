@@ -510,6 +510,10 @@ footer #contatos {
         margin-bottom: 20px;
     }
 
+    body {
+        overflow-y: hidden;
+    }
+
     .titulo .titulo1 {
         font-size: 20px;
     }
@@ -566,6 +570,7 @@ footer #contatos {
 
     body {
         height: 4000px;
+        overflow-y: hidden;
     }
 
     header {
@@ -865,6 +870,10 @@ footer #contatos {
     footer #contatos .github {
         background-image: url(/images/github-azul.png);
         
+    }
+
+    footer p {
+        font-size: 14px;
     }
 
 
