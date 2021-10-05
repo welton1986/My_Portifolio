@@ -727,6 +727,11 @@ footer #contatos {
         width: 100%;
     }
 
+    .video1 .link {
+        width: 16px;
+        height: 16px;
+    }
+
     #work .video2 {
         width: 90%;
         height: 260px;
@@ -734,6 +739,11 @@ footer #contatos {
 
     .video2 video {
         width: 100%;
+    }
+
+    .video2 .link {
+        width: 16px;
+        height: 16px;
     }
 
     #work .video3 {
@@ -745,6 +755,11 @@ footer #contatos {
         width: 100%;
     }
 
+    .video3 .link {
+        width: 16px;
+        height: 16px;
+    }
+
     #work .video4 {
         width: 90%;
         height: 260px;
@@ -752,6 +767,11 @@ footer #contatos {
 
     .video4 video {
         width: 100%;
+    }
+
+    .video4 .link {
+        width: 16px;
+        height: 16px;
     }
 
     #work .video5 {
@@ -763,6 +783,11 @@ footer #contatos {
         width: 100%;
     }
 
+    .video5 .link {
+        width: 16px;
+        height: 16px;
+    }
+
     #work .video6 {
         width: 90%;
         height: 260px;
@@ -770,6 +795,11 @@ footer #contatos {
 
     .video6 video {
         width: 100%;
+    }
+
+    .video6 .link {
+        width: 16px;
+        height: 16px;
     }
 
     #work .video7 {
@@ -781,6 +811,11 @@ footer #contatos {
         width: 100%;
     }
 
+    .video7 .link {
+        width: 16px;
+        height: 16px;
+    }
+
     #work .video8 {
         width: 90%;
         height: 260px;
@@ -790,6 +825,11 @@ footer #contatos {
         width: 100%;
     }
 
+    .video8 .link {
+        width: 16px;
+        height: 16px;
+    }
+
     #work .video9 {
         width: 90%;
         height: 260px;
@@ -797,6 +837,11 @@ footer #contatos {
 
     .video9 video {
         width: 100%;
+    }
+
+    .video9 .link {
+        width: 16px;
+        height: 16px;
     }
 
     footer {
@@ -815,6 +860,11 @@ footer #contatos {
 
     footer p {
         margin-bottom: 20px;
+    }
+
+    #contatos .github {
+        background-image: url(/images/github-azul.png);
+        
     }
 
 
