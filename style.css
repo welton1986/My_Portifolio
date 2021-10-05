@@ -862,7 +862,7 @@ footer #contatos {
         margin-bottom: 20px;
     }
 
-    #contatos .github {
+    footer #contatos .github {
         background-image: url(/images/github-azul.png);
         
     }
