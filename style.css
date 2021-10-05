@@ -504,6 +504,17 @@ footer #contatos {
     transition: 0.3s;
 }
 
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width:1024px ) {
     .sobreRigth .titulo {
         height: 10%;
@@ -511,7 +522,7 @@ footer #contatos {
     }
 
     body {
-        overflow-y: hidden;
+        overflow-x: hidden;
     }
 
     .titulo .titulo1 {
@@ -570,7 +581,7 @@ footer #contatos {
 
     body {
         height: 4000px;
-        overflow-y: hidden;
+        overflow-x: hidden;
     }
 
     header {
@@ -582,7 +593,7 @@ footer #contatos {
     }
 
     .container {
-        overflow-y: hidden;
+        overflow-x: hidden;
         display: flex;
         justify-content: center;
         align-items: center;
