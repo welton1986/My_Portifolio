@@ -8,6 +8,7 @@ html {
 }
 
 body {
+    overflow-x: hidden;
     font-family: 'Open Sans', sans-serif;
     margin: 0px;
     padding: 0px;
@@ -29,6 +30,7 @@ header {
 .container {
     display: flex;
     width: 100%;
+    
 
 }
 
@@ -540,6 +542,7 @@ footer #contatos {
 
 
     #work {
+        
         height: 1800px;
         
     }
@@ -583,12 +586,17 @@ footer #contatos {
 
 @media (max-width:800px){
 
+    html {
+        overflow-x: hidden;
+    }
+
     body {
         height: 4000px;
         overflow-x: hidden;
     }
 
     header {
+        width: 100%;
         position:absolute;
         display: flex;
         flex-direction: column;
@@ -597,6 +605,7 @@ footer #contatos {
     }
 
     .container {
+        width: 100%;
         overflow-x: hidden;
         display: flex;
         justify-content: center;
@@ -613,6 +622,7 @@ footer #contatos {
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
     }
 
     .banner .left {
@@ -720,6 +730,7 @@ footer #contatos {
     #work {
         display: flex;
         flex-direction: column;
+        width: 100%;
         height: 2600px;
     }
 
