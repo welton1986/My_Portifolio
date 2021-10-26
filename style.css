@@ -594,12 +594,18 @@ footer #contatos {
     }
 
     header {
+        background-color:#FFF;
         width: 100%;
         position:absolute;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    header .logo {
+        background-color:#FFF;
+        color: #000;
     }
 
     .container {
