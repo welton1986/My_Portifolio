@@ -7,15 +7,13 @@ const scrollReveal = ScrollReveal ({
 })
 
 scrollReveal.reveal(
-    `.left ,
-    .rigth,
+    `
     #sobre,
     #work ,
     .works,
     .video1,
     .video2,
     .video3,
-    #contatos,
-    footer .footer`,
+    #contatos`,
     { interval: 100}
 );
