@@ -511,6 +511,23 @@ footer #contatos {
     transition: 0.3s;
 }
 
+#contatos .whatsApp{
+    background-image: url(images/whatsapp-logo-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+#contatos .whatsApp:hover {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
 
 
 
